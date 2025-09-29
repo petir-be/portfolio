@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+:root {
+    --color-white: #Fff;
+}
+
+
+@layer components{
+    .icons{
+        @apply bg-white rounded-full shadow-md p-4 flex items-center justify-center;
+    }
+    .iconImages{
+        @apply w-10 h-10;
+    }
+    .inputField{
+        @apply flex flex-col gap-2
+    }
+    .spanIcon{
+        @apply absolute scale-20 -z-2 mb-2 px-2 py-1 text-xs font-bold text-black bg-white shadow-md rounded group-hover:scale-110 group-hover:-translate-y-12 transition duration-200 
+    }
+    .navMargin{
+        @apply pt-[82px]
+    }
+}
+
+@layer base{
+    *{
+        @apply m-0 p-0 box-border font-sans scroll-smooth;
+
+
+    }
+    a{
+        @apply font-bold text-lg
+    }
+    input, textarea{
+        @apply border-2 border-gray-500 border-solid rounded-md w-full py-2 px-3 text-gray-700
+    }
+    label{
+        @apply text-gray-700 text-sm font-bold mb-2 
+    }
+}
