@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Navigation from './components/navigation'
+import Navigation from './components/Navigation'
 import Home from './components/Home'
 import Works from './components/Works'
 import Contact from './components/Contact'  
