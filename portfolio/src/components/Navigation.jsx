@@ -23,7 +23,7 @@ function Navigation() {
 
                 <div
                     id="sidebar"
-                    class={`fixed top-0 right-0 h-full w-1/3 bg-gray-800 text-white z-50 p-6 transition-transform duration-300 ease-in-out ${
+                    class={`fixed top-0 right-0 h-full w-5/12 bg-gray-800 text-white z-50 p-6 transition-transform duration-300 ease-in-out ${
                         sidebarOpen ? '-translate-x-0' : 'translate-x-full'
                     } md:hidden`}
                 >
