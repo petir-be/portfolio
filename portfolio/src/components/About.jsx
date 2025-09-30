@@ -1,6 +1,17 @@
 import { useState } from 'react';
 import Pictures from './Pictures';
 
+import pic1 from "../assets/public/gallery/1.png";
+import pic2 from "../assets/public/gallery/2.png";
+import pic3 from "../assets/public/gallery/3.JPEG";
+import pic4 from "../assets/public/gallery/4.JPEG";
+import pic5 from "../assets/public/gallery/5.JPEG";
+import pic6 from "../assets/public/gallery/6.jpg";
+import pic7 from "../assets/public/gallery/7.png";
+import pic8 from "../assets/public/gallery/8.jpg";
+import pic9 from "../assets/public/gallery/home.jpg";
+
+
 function About() {
     const [showFull, setShowFull] = useState(false);
     const [showModal, setShowModal] = useState(false);
@@ -37,49 +48,49 @@ function About() {
                 </div>
                 <div class="flex flex-wrap justify-center gap-4 mb-25">
                     <div class="relative group icons">
-                        <img src="../../public/icons/c.svg" alt="C#" class="iconImages" />
+                        <img src="../../public/gallery/icons/c.svg" alt="C#" class="iconImages" />
                         <span class="spanIcon">
                             C#
                         </span>
                     </div>
                     <div class="relative group icons">
-                        <img src="../../public/icons/css.svg" alt="CSS" class="iconImages" />
+                        <img src="../../public/gallery/icons/css.svg" alt="CSS" class="iconImages" />
                         <span class="spanIcon">
                             CSS
                         </span>
                     </div>
                     <div class="relative group icons">
-                        <img src="../../public/icons/html.svg" alt="HTML" class="iconImages" />
+                        <img src="../../public/gallery/icons/html.svg" alt="HTML" class="iconImages" />
                         <span class="spanIcon">
                             HTML
                         </span>
                     </div>
                     <div class="relative group icons">
-                        <img src="../../public/icons/javascript.svg" alt="JavaScript" class="iconImages" />
+                        <img src="../../public/gallery/icons/javascript.svg" alt="JavaScript" class="iconImages" />
                         <span class="spanIcon">
                             Javascript
                         </span>
                     </div>
                     <div class="relative group icons">
-                        <img src="../../public/icons/php.png" alt="PHP" class="iconImages" />
+                        <img src="../../public/gallery/icons/php.png" alt="PHP" class="iconImages" />
                         <span class="spanIcon">
                             PHP
                         </span>
                     </div>
                     <div class="relative group icons">
-                        <img src="../../public/icons/react.svg" alt="React Native" class="iconImages" />
+                        <img src="../../public/gallery/icons/react.svg" alt="React Native" class="iconImages" />
                         <span class="spanIcon">
                             React
                         </span>
                     </div>
                     <div class="relative group icons">
-                        <img src="../../public/icons/sql.svg" alt="MySQL" class="iconImages" />
+                        <img src="../../public/gallery/icons/sql.svg" alt="MySQL" class="iconImages" />
                         <span class="spanIcon">
                             MySQL
                         </span>
                     </div>
                     <div class="relative group icons">
-                        <img src="../../public/icons/tailwind.svg" alt="Tailwind" class="iconImages" />
+                        <img src="../../public/gallery/icons/tailwind.svg" alt="Tailwind" class="iconImages" />
                         <span class="spanIcon">
                             Tailwind
                         </span>
@@ -87,15 +98,16 @@ function About() {
                     
                 </div>
                 <div class="columns-1 mx-5  sm:columns-2 md:columns-3 space-y-6 justify-items-center w-5/6 justify-self-center">
-                    <Pictures picture={"../../public/gallery/1.png"} />
-                    <Pictures picture={"../../public/gallery/2.png"} />
-                    <Pictures picture={"../../public/gallery/3.JPEG"} />
-                    <Pictures picture={"../../public/gallery/4.JPEG"} />
-                    <Pictures picture={"../../public/gallery/5.JPEG"} />
-                    <Pictures picture={"../../public/gallery/6.jpg"} />
-                    <Pictures picture={"../../public/gallery/7.png"} />
-                    <Pictures picture={"../../public/gallery/8.jpg"} />
-                    <Pictures picture={"../../public/gallery/home.jpg"} />
+                    <Pictures picture={pic1} />
+                    <Pictures picture={pic2} />
+                    <Pictures picture={pic3} />
+                    <Pictures picture={pic4} />
+                    <Pictures picture={pic5} />
+                    <Pictures picture={pic6} />
+                    <Pictures picture={pic7} />
+                    <Pictures picture={pic8} />
+                    <Pictures picture={pic9} />
+                    
                     
                 </div>
             </div>
