@@ -2,7 +2,7 @@ import '../App.css'
 import React from 'react';
 
 import logo1 from "../assets/public/logo1.jpg";
-import kurt from "../assets/public/kurt.png";
+import kurt from "../assets/public/kurt.jpg";
 import facebook from "../assets/public/facebook.svg";
 import instagram from "../assets/public/icons8-instagram-50.png";
 
@@ -20,16 +20,16 @@ function Home() {
                         <h4 class="text-lg md:text-2xl font-light mb-1 text-[#2b2d42] text-center md:text-left">Your future</h4>
                         <h2 class="text-2xl md:text-4xl font-bold md:mb-8 text-[#2b2d42] text-center md:text-left">Developer</h2>
                         <div class="flex space-x-4 mt-4 justify-center md:justify-start">
-                            <a href="#">
+                            <a href="https://www.facebook.com/kurt.ereno.104" target="_blank" rel="noopener noreferrer">
                                 <img src={facebook} alt="Facebook" class="w-10 h-10" />
                             </a>
-                            <a href="#">
+                            <a href="https://www.instagram.com/kuurz__/" target="_blank" rel="noopener noreferrer">
                                 <img src={instagram} alt="Instagram" class="w-10 h-10" />
                             </a>
                         </div>
                     </div>
                     <div class="flex-1 flex items-center justify-center relative w-full md:w-auto mt-10 md:mt-0">
-                        <img src={logo1} alt="" class="absolute -z-1 h-[500px] md:h-auto left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-50 pointer-events-none" />
+                        <img src={logo1} loading="lazy" alt="" class="absolute -z-1 h-[500px] md:h-auto left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-50 pointer-events-none" />
                         <img
                             src={kurt}
                             alt="Kurt P. Ereño"
