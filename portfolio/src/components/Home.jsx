@@ -29,7 +29,7 @@ function Home() {
                         </div>
                     </div>
                     <div class="flex-1 flex items-center justify-center relative w-full md:w-auto mt-10 md:mt-0">
-                        <img src={logo1} loading="lazy" alt="" class="absolute -z-1 h-[500px] md:h-auto left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-50 pointer-events-none" />
+                        <img src={logo1} alt="" class="absolute -z-1 h-[500px] md:h-auto left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-50 pointer-events-none" />
                         <img
                             src={kurt}
                             alt="Kurt P. Ereño"
