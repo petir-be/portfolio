@@ -1,5 +1,10 @@
 import {useState} from 'react';
 
+import emailIcon from "../assets/public/email.png";
+import phoneIcon from "../assets/public/telephone.svg";
+import facebookIcon from "../assets/public/facebook.svg";
+
+
 function Contact() {
 
     const [result, setResult] = useState("");
@@ -41,15 +46,15 @@ function Contact() {
                     <h1 class="text-5xl font-bold">Get in Touch!</h1>
                     <p class = "my-3 text-xl">Feel free to reach out for collaborations or just a friendly hello!</p>
                     <div class = "flex flex-row items-center gap-3 my-1">
-                        <img src="../../public/email.png" alt="" class = "iconImages" />
+                        <img src={emailIcon} alt="" class = "iconImages" />
                         <p class = "text-lg">kurtie.ereno12@gmail.com</p>
                     </div>
                     <div class = "flex flex-row items-center gap-3 my-1">
-                        <img src="../../public/telephone.svg" alt="" class = "iconImages" />
+                        <img src={phoneIcon} alt="" class = "iconImages" />
                         <p class = "text-lg">+63 9055601605</p>
                     </div>
                     <div class = "flex flex-row items-center gap-3 my-1">
-                        <img src="../../public/facebook.svg" alt="" class = "iconImages" />
+                        <img src={facebookIcon} alt="" class = "iconImages" />
                         <p class = "text-lg">Kurt Ereño</p>
                     </div>
                 </div>

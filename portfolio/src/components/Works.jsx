@@ -1,6 +1,14 @@
 import Card from "./Card";
 import "../App.css";
 
+import work1 from "../assets/public/works/book-cover.jpg";
+import work2 from "../assets/public/works/grunge-poster.jpg";
+import work3 from "../assets/public/works/java-invoker.png";
+import work4 from "../assets/public/works/java-ministore.png";
+import work5 from "../assets/public/works/minimalist-poster.png";
+import work6 from "../assets/public/works/moodboard.jpg";
+import work7 from "../assets/public/works/snakegame.png";
+
 function Works() {
     return (
         <>
@@ -11,13 +19,13 @@ function Works() {
                     <hr class = "my-9 w-11/12 justify-self-center h-0.5 border-t-0 bg-gray-500"/>
                 </div>
                 <div class="columns-1 mx-5 sm:columns-2 md:columns-3 gap-6 space-y-6 w-11/12 justify-items-center justify-self-center">
-                    <Card image={"../../public/works/book-cover.jpg"} title="Book Cover" />
-                    <Card image={"../../public/works/grunge-poster.jpg"} title="Grunge Poster" />
-                    <Card image={"../../public/works/java-invoker.png"} title="Java-Invoker Game" />
-                    <Card image={"../../public/works/java-ministore.png"} title="Java-Ministore" />
-                    <Card image={"../../public/works/minimalist-poster.png"} title="Minimalist Poster" />
-                    <Card image={"../../public/works/moodboard.jpg"} title="Moodboard" />
-                    <Card image={"../../public/works/snakegame.png"} title="Snakegame" />
+                    <Card image={work1} title="Book Cover" />
+                    <Card image={work2} title="Grunge Poster" />
+                    <Card image={work3} title="Java-Invoker Game" />
+                    <Card image={work4} title="Java-Ministore" />
+                    <Card image={work5} title="Minimalist Poster" />
+                    <Card image={work6} title="Moodboard" />
+                    <Card image={work7} title="Snakegame" />
                    
                 </div>
             </div>

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import '../App.css'
 
+import logo2 from '../assets/public/logo2.jpg'
+
 function Navigation() {
     const [sidebarOpen, setSidebarOpen] = useState(false);
 
@@ -12,7 +14,7 @@ function Navigation() {
         <>
             <div class="fixed top-0 w-full flex justify-between items-center p-4 px-6 bg-white shadow-md text-black md:px-15 z-100">
                 <div>
-                    <a href="#home"><img src="../../public/logo2.jpg" alt="logo" class = "w-[50px] h-auto"/></a>
+                    <a href="#home"><img src={logo2} class = "w-[50px] h-auto"/></a>
                 </div>
 
                 <div id="hamburger" class="block md:hidden cursor-pointer" onClick={handleHamburgerClick}>
