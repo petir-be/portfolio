@@ -11,6 +11,15 @@ import pic7 from "../assets/public/gallery/7.png";
 import pic8 from "../assets/public/gallery/8.jpg";
 import pic9 from "../assets/public/gallery/home.jpg";
 
+import iconc from "../assets/public/icons/c.svg";
+import iconcss from "../assets/public/icons/css.svg";
+import iconhtml from "../assets/public/icons/html.svg";
+import iconjs from "../assets/public/icons/javascript.svg";
+import iconphp from "../assets/public/icons/php.png";
+import iconreact from "../assets/public/icons/react.svg";
+import iconsql from "../assets/public/icons/sql.svg";
+import icontailwind from "../assets/public/icons/tailwind.svg";
+
 
 function About() {
     const [showFull, setShowFull] = useState(false);
@@ -48,49 +57,49 @@ function About() {
                 </div>
                 <div class="flex flex-wrap justify-center gap-4 mb-25">
                     <div class="relative group icons">
-                        <img src="../../public/gallery/icons/c.svg" alt="C#" class="iconImages" />
+                        <img src={iconc} alt="C#" class="iconImages" />
                         <span class="spanIcon">
                             C#
                         </span>
                     </div>
                     <div class="relative group icons">
-                        <img src="../../public/gallery/icons/css.svg" alt="CSS" class="iconImages" />
+                        <img src={iconcss} alt="CSS" class="iconImages" />
                         <span class="spanIcon">
                             CSS
                         </span>
                     </div>
                     <div class="relative group icons">
-                        <img src="../../public/gallery/icons/html.svg" alt="HTML" class="iconImages" />
+                        <img src={iconhtml} alt="HTML" class="iconImages" />
                         <span class="spanIcon">
                             HTML
                         </span>
                     </div>
                     <div class="relative group icons">
-                        <img src="../../public/gallery/icons/javascript.svg" alt="JavaScript" class="iconImages" />
+                        <img src={iconjs} alt="JavaScript" class="iconImages" />
                         <span class="spanIcon">
                             Javascript
                         </span>
                     </div>
                     <div class="relative group icons">
-                        <img src="../../public/gallery/icons/php.png" alt="PHP" class="iconImages" />
+                        <img src={iconphp} alt="PHP" class="iconImages" />
                         <span class="spanIcon">
                             PHP
                         </span>
                     </div>
                     <div class="relative group icons">
-                        <img src="../../public/gallery/icons/react.svg" alt="React Native" class="iconImages" />
+                        <img src={iconreact} alt="React" class="iconImages" />
                         <span class="spanIcon">
                             React
                         </span>
                     </div>
                     <div class="relative group icons">
-                        <img src="../../public/gallery/icons/sql.svg" alt="MySQL" class="iconImages" />
+                        <img src={iconsql} alt="MySQL" class="iconImages" />
                         <span class="spanIcon">
                             MySQL
                         </span>
                     </div>
                     <div class="relative group icons">
-                        <img src="../../public/gallery/icons/tailwind.svg" alt="Tailwind" class="iconImages" />
+                        <img src={icontailwind} alt="Tailwind" class="iconImages" />
                         <span class="spanIcon">
                             Tailwind
                         </span>
