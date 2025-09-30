@@ -106,7 +106,7 @@ function About() {
                     </div>
                     
                 </div>
-                <div class="columns-1 mx-5  sm:columns-2 md:columns-3 space-y-6 justify-items-center w-5/6 justify-self-center">
+                <div class="columns-2 mx-5 md:columns-3 space-y-6 justify-items-center w-5/6 justify-self-center">
                     <Pictures picture={pic1} />
                     <Pictures picture={pic2} />
                     <Pictures picture={pic3} />

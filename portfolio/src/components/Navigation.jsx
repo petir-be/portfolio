@@ -17,7 +17,7 @@ function Navigation() {
                     <a href="#home"><img src={logo2} class = "w-[50px] h-auto"/></a>
                 </div>
 
-                <div id="hamburger" class="block md:hidden cursor-pointer" onClick={handleHamburgerClick}>
+                <div id="hamburger" class="block md:hidden cursor-pointer text-2xl" onClick={handleHamburgerClick}>
                     &#9776;
                 </div>
 

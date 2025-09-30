@@ -18,7 +18,7 @@ function Works() {
                     <p class = "my-3 text-xl">A small collection of works I did, from photoediting to programming.</p>
                     <hr class = "my-9 w-11/12 justify-self-center h-0.5 border-t-0 bg-gray-500"/>
                 </div>
-                <div class="columns-1 mx-5 sm:columns-2 md:columns-3 gap-6 space-y-6 w-11/12 justify-items-center justify-self-center">
+                <div class="columns-2 mx-5 md:columns-3 gap-6 space-y-6 w-11/12 justify-items-center justify-self-center">
                     <Card image={work1} title="Book Cover" />
                     <Card image={work2} title="Grunge Poster" />
                     <Card image={work3} title="Java-Invoker Game" />

@@ -33,7 +33,7 @@ function Home() {
                         <img
                             src={kurt}
                             alt="Kurt P. Ereño"
-                            class="relative rounded-[25%] object-cover w-lg min-w-lg h-auto md:w-lg md:h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
+                            class="relative rounded-[25%] object-cover w-lg min-w-s h-auto md:w-lg md:h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
                         />
                     </div>
                 </div>
