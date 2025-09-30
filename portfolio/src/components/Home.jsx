@@ -2,7 +2,7 @@ import '../App.css'
 import React from 'react';
 
 import logo1 from "../assets/public/logo1.jpg";
-import kurt from "../assets/public/kurt.jpg";
+import kurt from "../assets/public/kurt.png";
 import facebook from "../assets/public/facebook.svg";
 import instagram from "../assets/public/icons8-instagram-50.png";
 
