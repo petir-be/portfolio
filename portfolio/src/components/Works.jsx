@@ -6,7 +6,7 @@ import work2 from "../assets/public/works/grunge-poster.jpg";
 import work3 from "../assets/public/works/java-invoker.png";
 import work4 from "../assets/public/works/java-ministore.png";
 import work5 from "../assets/public/works/minimalist-poster.png";
-import work6 from "../assets/public/works/moodboard.jpg";
+import work6 from "../assets/public/works/Moodboard.jpg";
 import work7 from "../assets/public/works/snakegame.png";
 
 function Works() {
