@@ -9,7 +9,7 @@ import pic5 from "../assets/public/gallery/5.JPEG";
 import pic6 from "../assets/public/gallery/6.jpg";
 import pic7 from "../assets/public/gallery/7.png";
 import pic8 from "../assets/public/gallery/8.jpg";
-import pic9 from "../assets/public/gallery/home.jpg";
+import pic9 from "../assets/public/gallery/home.JPG";
 
 import iconc from "../assets/public/icons/c.svg";
 import iconcss from "../assets/public/icons/css.svg";
