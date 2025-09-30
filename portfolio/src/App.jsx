@@ -10,6 +10,8 @@ function App() {
 
   return (
     <>
+      <title>Kurt Ereño</title>
+      <link rel="icon" type="image/png" href="./assets/favicon.ico" />
       <Navigation/>
       <Home/>
       <Works/>
