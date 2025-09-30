@@ -3,6 +3,8 @@ import React from 'react';
 
 import logo1 from "../assets/public/logo1.jpg";
 import kurt from "../assets/public/kurt.png";
+import facebook from "../assets/public/facebook.svg";
+import instagram from "../assets/public/icons8-instagram-50.png";
 
 function Home() {
     return (
@@ -19,10 +21,10 @@ function Home() {
                         <h2 class="text-2xl md:text-4xl font-bold md:mb-8 text-[#2b2d42] text-center md:text-left">Developer</h2>
                         <div class="flex space-x-4 mt-4 justify-center md:justify-start">
                             <a href="#">
-                                <img src={"../../public/facebook.svg"} alt="Facebook" class="w-10 h-10" />
+                                <img src={facebook} alt="Facebook" class="w-10 h-10" />
                             </a>
                             <a href="#">
-                                <img src={"../../public/icons8-instagram-50.png"} alt="Instagram" class="w-10 h-10" />
+                                <img src={instagram} alt="Instagram" class="w-10 h-10" />
                             </a>
                         </div>
                     </div>
